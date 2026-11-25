@@ -210,11 +210,11 @@ body{
     bottom: 3vh;
     right: 3vh;
 }
-
+/* ti ho cambiato un po lo stile ho ingrandito di 2 il width e spostato di uno in basso perche se no erano troppo piccole le icone play e stop */
 .audio-btn{
-    width: 5vh;
+    width: 7vh;
     position: absolute;
-    bottom: 3vh;
+    bottom: 2vh;
     right: 3vh;
     border: none;
     background: transparent;
@@ -246,6 +246,6 @@ body{
 .image{
     flex: 1 1 0;          
     min-height: 0;        
-    width: 100%;
+    width: 75%; /* li ho messi un pochino piu piccole le immagine se no si accavallavano con le icone download */
     object-fit: contain;
 }
